@@ -32,7 +32,7 @@ const Projects = ({ open, setOpen }) => {
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
           img={p1}
-          title="Tradejunction-Ecommerce"
+          title="TradeJunction"
           setOpen={setOpen}
           projectData={projectDetails1}
           setProjectData={setProjectData}
