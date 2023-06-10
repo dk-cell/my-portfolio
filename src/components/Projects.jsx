@@ -32,7 +32,7 @@ const Projects = ({ open, setOpen }) => {
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
           img={p1}
-          title="Crypto App"
+          title="Tradejunction-Ecommerce"
           setOpen={setOpen}
           projectData={projectDetails1}
           setProjectData={setProjectData}
@@ -44,7 +44,7 @@ const Projects = ({ open, setOpen }) => {
         />
         <ProjectItem
           img={p2}
-          title="Crypto App"
+          title="StoryVista"
           setOpen={setOpen}
           projectData={projectDetails2}
           setProjectData={setProjectData}
@@ -146,7 +146,7 @@ const ProjectItem = ({
       />
       <div className="hidden group-hover:block absolute tanslate-x-[-50%] tanslate-y-[-50%]">
         <h3 className="text-2xl font-bold text-white text-center">{title}</h3>
-        <p className="pb-4 pt-2 text-white text-center">React Js</p>
+        <p className="pb-4 pt-2 text-white text-center">MERN fullstack</p>
 
         <div className="flex flex-row">
           <a
