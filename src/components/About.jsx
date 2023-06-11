@@ -1,5 +1,6 @@
 import React from "react";
 import p1 from "../assets/me.jpeg";
+import resume from "../assets/DeepakSinghResume.pdf";
 const About = () => {
   return (
     <div id="about" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
@@ -19,10 +20,17 @@ const About = () => {
             and continually expand my expertise in web development.
           </p>
           <div className="flex flex-row w-full justify-center items-center ">
-            <a href="#contact" className="bg-[#001b5e] flex items-center hover:scale-110 justify-center text-gray-100 w-[20%] mr-5 mt-2 p-4 rounded-lg">
+            <a
+              href="#contact"
+              className="bg-[#001b5e] flex items-center hover:scale-110 justify-center text-gray-100 w-[20%] mr-5 mt-2 p-4 rounded-lg"
+            >
               Contact
             </a>
-            <a href="https://drive.google.com/drive/folders/1wxjHt4YQ-Odz9jQm1q3EEmF7vKuSLVMw?usp=sharing" className="bg-[#001b5e] flex items-center hover:scale-110 justify-center text-gray-100 w-[20%] mr-5 mt-2 p-4 rounded-lg">
+            <a
+              href={resume}
+              download="Resume"
+              className="bg-[#001b5e] flex items-center hover:scale-110 justify-center text-gray-100 w-[20%] mr-5 mt-2 p-4 rounded-lg"
+            >
               Resume
             </a>
           </div>

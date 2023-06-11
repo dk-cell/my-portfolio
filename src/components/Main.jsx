@@ -2,7 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { SiCodechef } from "react-icons/si";
-import b1 from "../assets/b1.jpg";
+import b1 from "../assets/bg2.jpg";
 
 const Main = () => {
   return (
