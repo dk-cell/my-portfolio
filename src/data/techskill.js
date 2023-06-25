@@ -22,7 +22,7 @@ export const techSkill = [
       { skill: "Problem Solving" },
       { skill: "Data Structure" },
       { skill: "Algorithm" },
-      { skill: "Git, jira & Jest (basic)" },
+      { skill: "Git, jira & cypress (basic)" },
     ],
     title: "Other",
   },
