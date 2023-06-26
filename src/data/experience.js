@@ -7,6 +7,10 @@ export const workExpData = [
     details: [
       {
         points:
+          "Executed front-end enhancements and feature implementations, aligning with project requirements and timelines.",
+      },
+      {
+        points:
           "Crafted reusable components to streamline frontend development and enhance code modularity.",
       },
       {
@@ -20,10 +24,6 @@ export const workExpData = [
       {
         points:
           "Worked closely with designers to ensure seamless implementation of UI/UX designs.",
-      },
-      {
-        points:
-          "Skillfully resolved bugs and glitches, ensuring smooth and flawless user experiences.",
       },
     ],
     isWork: true,
