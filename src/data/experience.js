@@ -4,26 +4,27 @@ export const workExpData = [
     title: "Specialist Programmer",
     place: "Infosys Limited, India",
     duration: "",
+    projectName:"AMS Buddy",
     details: [
       {
         points:
-          "Executed front-end enhancements and feature implementations, aligning with project requirements and timelines.",
+          "In the development of AMS Buddy, leveraging React resulted in a 40% reduction in frontend development time, leading to expedited project delivery. Additionally, React-powered components contributed to a 30% improvement in user engagement metrics, enhancing overall user satisfaction and adoption rates.",
       },
       {
         points:
-          "Crafted reusable components to streamline frontend development and enhance code modularity.",
+          "As part of the development process for AMS Buddy, I successfully implemented chunking logic to optimize data processing. This innovative approach allows us to efficiently handle large datasets and complex operations, ensuring optimal performance and scalability for our application. By leveraging chunking logic, we have significantly enhanced the system's capabilities, enabling seamless processing of data-intensive tasks and improving overall performance.",
       },
       {
         points:
-          "Implemented bug fixes and troubleshooting to enhance application performance and user experience.",
+          "Implemented an automated business document creation system, which led to a notable 50% reduction in both time and eﬀort required for document generation tasks.",
       },
       {
         points:
-          "Collaborated with the backend team to integrate frontend components with server-side logic.",
+          "In addition to my development responsibilities, I actively collaborate with our technology architect to design and conceptualize AMS Buddy. By combining our expertise, we aim to create a robust and scalable solution that addresses complex business requirements. This collaborative effort not only enhances the project's architectural integrity but also fosters innovation and ensures alignment with industry best practices.",
       },
       {
         points:
-          "Worked closely with designers to ensure seamless implementation of UI/UX designs.",
+          "In parallel with my development responsibilities, I'm actively engaged in creating a VS Code extension for AMS Buddy using TypeScript. This initiative aims to enhance the productivity of our development team by providing seamless integration with the VS Code environment. Through this endeavor, I'm leveraging my expertise in TypeScript to deliver a feature-rich extension that streamlines the development workflow and empowers our team to be more efficient and effective.",
       },
     ],
     isWork: true,
@@ -34,22 +35,23 @@ export const workExpData = [
     title: "Tech/Product Intern - (Frontend)",
     place: "Citymall, India",
     duration: "5 month",
+    projectName:"CityMall Leader App",
     details: [
       {
         points:
-          "Conceptualized and developed the self-deactivation feature, empowering users to easily deactivate their accounts.",
+          "Implemented self-deactivation feature, allowing users to deactivate accounts seamlessly. Collaborated with stakeholders for requirements gathering and integration. Ensured robust security measures for user data protection. Conducted thorough testing to enhance usability and privacy controls.",
       },
       {
         points:
-          "Implemented the shop performance feature, providing sellers with valuable insights and analytics to optimize their business.",
+          "Implemented shop performance feature, providing sellers with insights to optimize business. Collaborated on requirements and integration. Used analytics for intuitive metrics presentation. Conducted user testing to refine functionality.",
       },
       {
         points:
-          "Gained hands-on experience in React Native by fixing bugs and ensuring smooth functionality of the application.",
+          "Gained React Native experience by resolving bugs, ensuring smooth app functionality. Utilized systematic debugging to optimize performance and user experience. Collaborated on critical bug fixes to enhance overall app stability.",
       },
       {
         points:
-          "Showcased adaptability and a quick learning curve, effectively adapting to new technologies and project requirements.",
+          "Showcased adaptability and quick learning, seamlessly adapting to new tech and projects. Embraced diverse technologies and evolving demands. Rapidly grasped new concepts, fueling innovation and responsiveness.",
       },
     ],
     isWork: true,

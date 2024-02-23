@@ -8,13 +8,14 @@ const Work = () => {
       <h1 className="text-4xl font-bold text-center text-[#001] mb-3">
         Experience/Education
       </h1>
-      {workExpData && workExpData.map((item, index) => <WorkItem key={index} data={item} />)}
+      {workExpData &&
+        workExpData.map((item, index) => <WorkItem key={index} data={item} />)}
     </div>
   );
 };
 
 const WorkItem = ({ data }) => {
-  const char=">"
+  const char = ">";
   return (
     <div className="flex flex-col md:flex-row relative border-l border-stone-200">
       <ul className="mb-10 ml-4">
@@ -35,15 +36,21 @@ const WorkItem = ({ data }) => {
             {data.duration}
           </span>
         </p>
+        <p>
+          {data.projectName && <span className="inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md">
+            {data.projectName}
+          </span>}
+        </p>
         <p className="my-2 text-base font-normal  ">
           {data?.details.map((item, index) => {
-
             return (
               <div className="flex flex-row items-center">
                 <div className="flex items-center justify-center">
                   {/* <BsFillRecordFill size={10} className="mb-11 mr-2 md:mb-0 text-[#001b5e]" /> */}
                   <p className="text-stone-500">
-                    <span className="mr-2 text-[#001b5e] font-semibold">{char}</span>{" "}
+                    <span className="mr-2 text-[#001b5e] font-semibold">
+                      {char}
+                    </span>{" "}
                     {item.points}
                   </p>
                 </div>

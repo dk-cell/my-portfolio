@@ -13,7 +13,7 @@ const Skill = () => {
         someone who never saw themselves as anything other than a blue collar
         worker.
       </p> */}
-      <div className="grid sm:grid-cols-3 gap-12">
+      <div className="grid sm:grid-cols-4 gap-12">
         {techSkill.map((skill, index) => (
           <Card skill={skill.techStack} title={skill.title} key={index} />
         ))}

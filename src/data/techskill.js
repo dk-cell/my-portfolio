@@ -1,10 +1,13 @@
 export const techSkill = [
   {
+    techStack: [{ skill: "Javascript" }, { skill: "Python" }, { skill: "c++" }],
+    title: "language",
+  },
+  {
     techStack: [
       { skill: "react" },
       { skill: "redux" },
-      { skill: "html" },
-      { skill: "css" },
+      { skill: "html & css" },
     ],
     title: "Frontend",
   },
@@ -19,10 +22,9 @@ export const techSkill = [
 
   {
     techStack: [
-      { skill: "Problem Solving" },
       { skill: "Data Structure" },
       { skill: "Algorithm" },
-      { skill: "Git, jira & cypress (basic)" },
+      { skill: "Git, jira" },
     ],
     title: "Other",
   },

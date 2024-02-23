@@ -14,10 +14,10 @@ const About = () => {
         </div>
         <div>
           <p className="text-center py-8 px-8">
-            I'm Deepak Singh, a web developer skilled in building reusable
-            components, experienced in React-Redux, and familiar with Node
-            Express and MongoDB. I strive to deliver seamless user experiences
-            and continually expand my expertise in web development.
+            Dedicated React developer with 1.6+ years of professional experience
+            and 5 months of internship exposure, specializing in React.js.
+            Seeking roles where I can apply my expertise to deliver high-quality
+            solutions and contribute to the advancement of impactful projects.
           </p>
           <div className="flex flex-row w-full justify-center items-center ">
             <a
