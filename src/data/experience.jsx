@@ -54,7 +54,8 @@ export const workExpData = [
             <span className="text-[#001b5e] text-lg font-semibold">
               AMS Buddy
             </span>
-            , and improving document retrieval efficiency by 25%.
+            , and improving document retrieval efficiency by{" "}
+            <span className="text-[#001b5e] text-lg font-semibold">25%</span>.
           </div>
         ),
       },
@@ -94,10 +95,8 @@ export const workExpData = [
       {
         points: (
           <div>
-            Streamlined document generation processes, leading to a remarkable
-            <span className="text-[#001b5e] text-lg font-semibold">
-              50%
-            </span>{" "}
+            Streamlined document generation processes, leading to a remarkable{" "}
+            <span className="text-[#001b5e] text-lg font-semibold">50%</span>{" "}
             reduction in both time and effort required for document creation
             tasks.
           </div>
@@ -109,11 +108,9 @@ export const workExpData = [
             Revolutionized document generation process by implementing
             innovative token chunking strategies, eliminating token limit
             constraints, and ensuring seamless operations, resulting in a{" "}
-            <span className="text-[#001b5e] text-lg font-semibold">40%</span>
+            <span className="text-[#001b5e] text-lg font-semibold">40%</span>{" "}
             increase in productivity and{" "}
-            <span className="text-[#001b5e] text-lg font-semibold">
-              60%
-            </span>{" "}
+            <span className="text-[#001b5e] text-lg font-semibold">60%</span>{" "}
             reduction in errors.
           </div>
         ),

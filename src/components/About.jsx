@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div>
           <p className="px-8 mt-3">
-            As a seasoned full stack developer graduated from{" "}
+            As a seasoned <strong>Full Stack Developer</strong> graduated from{" "}
             <strong>NIT Jamshedpur</strong>, I excel in crafting websites that
             seamlessly blend functionality with captivating design aesthetics.
             With a firm grasp of <strong>web standards</strong> and{" "}
