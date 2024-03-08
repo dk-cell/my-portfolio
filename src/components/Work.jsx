@@ -1,7 +1,8 @@
 import React from "react";
 import { MdWork } from "react-icons/md";
 import { FaUniversity } from "react-icons/fa";
-import { workExpData } from "../data/experience";
+import { RxDotFilled } from "react-icons/rx";
+import { workExpData } from "../data/experience.jsx";
 const Work = () => {
   return (
     <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
@@ -37,24 +38,29 @@ const WorkItem = ({ data }) => {
           </span>
         </p>
         <p>
-          {data.projectName && <span className="inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md">
-            {data.projectName}
-          </span>}
+          {data.projectName && (
+            <span className="inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md">
+              {data.projectName}
+            </span>
+          )}
         </p>
         <p className="my-2 text-base font-normal  ">
           {data?.details.map((item, index) => {
             return (
-              <div className="flex flex-row items-center">
-                <div className="flex items-center justify-center">
+              <>
+                {item.subheading && <div>
+                  <span className="mr-2 mt-1 text-[#001b5e] text-lg font-semibold justify-start items-center">
+                    {item.subheading}
+                  </span>
+                </div>}
+                {item.points && <div className="flex flex-row items-start mt-1">
                   {/* <BsFillRecordFill size={10} className="mb-11 mr-2 md:mb-0 text-[#001b5e]" /> */}
-                  <p className="text-stone-500">
-                    <span className="mr-2 text-[#001b5e] font-semibold">
-                      {char}
-                    </span>{" "}
-                    {item.points}
-                  </p>
-                </div>
-              </div>
+                  <span className="mr-2 mt-1 text-[#001b5e] text-lg font-semibold justify-start items-center">
+                    <RxDotFilled />
+                  </span>
+                  <p className="text-stone-800">{item.points}</p>
+                </div>}
+              </>
             );
           })}
         </p>

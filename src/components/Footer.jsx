@@ -21,7 +21,7 @@ const Footer = () => {
         </a>
       </div>
       <div>
-      <p className="w-full flex  justify-center text-white bg-[#001b5e] text-[15px] items-center">Last Updated : 23/02/2024</p>
+      {/* <p className="w-full flex  justify-center text-white bg-[#001b5e] text-[15px] items-center">Last Updated : 23/02/2024</p> */}
       </div>
     </div>
   );
